@@ -1,0 +1,130 @@
+body{
+    background-image: linear-gradient(orange, yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: -0px;
+}
+/*  */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li{
+    float: left;
+    border-right: 1px solid white;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+.active{
+    background-color: dodgerblue;
+}
+#achievements-container{
+    background-color: dodgerblue;
+    border: 5px solid #333;
+    margin-top: 20px;
+}
+#achievements-container h2{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.a-line{
+    height: 5px;
+    background-color: #333;
+    border: none;
+    width: 95%;
+}
+.biography-container{
+    border: 5px solid #333;
+    margin-top: 20px;
+    background-color: dodgerblue;
+}
+.biography-container h2{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.footer{
+    float: left;
+    background-color: dodgerblue;
+    border: 5px solid #333;
+    margin-top: 150px;
+}
+.quote-container{
+    background-color: dodgerblue;
+    border: 5px solid #333;
+    margin-top: 20px;
+}
+
+#special-image{
+    height: 300px;
+}
+#random-container{
+    margin-top: 5%;
+    /* width: 30%; */
+    background-color: dodgerblue;
+    border: 5px solid #333;
+}
+#random-container h2{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-box2{
+    display: flex;
+    justify-content: space-around;
+}
+.random-container2{
+    margin-top: 5%;
+    /* width: 30%; */
+    background-color: dodgerblue;
+    border: 5px solid #333;
+}
+.random-container2 h2{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+    .flex-box{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .flex-box2{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+  }

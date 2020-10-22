@@ -1,0 +1,101 @@
+body{
+    background-image: linear-gradient(orange, yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 12rem;
+}
+/*  */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li{
+    float: left;
+    border-right: 1px solid white;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+.active{
+    background-color: dodgerblue;
+}
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+.input-container{
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 5px solid #333;
+    padding: 40px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+input[type=submit]{
+    padding: 12px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bold;
+    background-color: dodgerblue;
+    border: 5px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+input[type=submit]:hover{
+    padding: 12px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bold;
+    background-image: linear-gradient(orange, yellow);
+    border: 5px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: -0px;
+}
+.footer{
+    float: left;
+    background-color: dodgerblue;
+    border: 5px solid #333;
+    margin-top: 150px;
+}
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .input-container, .header-container{
+      width:100%;
+    }
+  }
