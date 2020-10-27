@@ -3,7 +3,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 12rem;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: -0px;
 }
 /*  */
 ul{
@@ -27,14 +30,33 @@ li{
 
 li a:hover:not(.active) {
     background-color: #111;
-}
-
+  }
 .active{
     background-color: dodgerblue;
 }
-h1{
-    margin-top: 10px;
-    margin-bottom: -0px;
+#pop-song-container{
+    background-color: dodgerblue;
+    border: 5px solid #333;
+    margin-top: 20px;
+}
+#pop-song-container h2{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.a-line{
+    height: 5px;
+    background-color: #333;
+    border: none;
+    width: 95%;
+}
+.pop-album-container{
+    border: 5px solid #333;
+    margin-top: 20px;
+    background-color: dodgerblue;
+}
+.pop-album-container h2{
+    text-align: center;
+    text-shadow: 1px 1px white;
 }
 .footer{
     float: left;
@@ -42,6 +64,79 @@ h1{
     border: 5px solid #333;
     margin-top: 150px;
 }
+.fav-song-container{
+    background-color: dodgerblue;
+    border: 5px solid #333;
+    margin-top: 20px;
+}
+.fav-song-container h2{
+    text-shadow: 1px 1px white;
+}
+
+#special-image{
+    height: 300px;
+}
+#audio-container1{
+    margin-top: 5%;
+    background-color: dodgerblue;
+    border: 5px solid #333;
+}
+#audio-container1 h2{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex-box2{
+    display: flex;
+    justify-content: space-between;
+}
+.audio-container2{
+    margin-top: 5%;
+    /* width: 30%; */
+    background-color: dodgerblue;
+    border: 5px solid #333;
+}
+.audio-container2 h2{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.audio-container3{
+    margin-top: 5%;
+    /* width: 30%; */
+    background-color: dodgerblue;
+    border: 5px solid #333;
+}
+.audio-container3 h2{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa-instagram {
+    background:#E1306C;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+#alb-img{
+    width: 95%;
+}
 
 
 
@@ -51,3 +146,20 @@ h1{
 
 
 
+@media only screen and (max-width:1000px) {
+    .flex-box{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .flex-box2{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+  }

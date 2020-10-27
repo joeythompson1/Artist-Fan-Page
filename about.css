@@ -102,6 +102,26 @@ li a:hover:not(.active) {
     text-align: center;
     text-shadow: 1px 1px white;
 }
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa-instagram {
+    background:#E1306C;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
 
 
 
